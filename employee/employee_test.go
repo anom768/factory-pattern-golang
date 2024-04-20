@@ -2,8 +2,9 @@ package employee_test
 
 import (
 	"go-factorypattern-company-case/employee"
-	//. "github.com/onsi/ginkgo/v2"
-	//. "github.com/onsi/gomega"
+
+	. "github.com/onsi/ginkgo/v2"
+	. "github.com/onsi/gomega"
 )
 
 var _ = Describe("Employee", func() {
