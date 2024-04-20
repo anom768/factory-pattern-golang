@@ -92,7 +92,7 @@ var _ = Describe("Employee", func() {
 			// Bonus is 0
 			empl, err := employee.GetEmployeeFactory("director")
 			Expect(err).NotTo(HaveOccurred())
-			Expect(empl.GetBonus()).To(Equal(1500))
+			Expect(empl.GetBonus()).To(Equal(1500.0))
 
 		})
 	})
